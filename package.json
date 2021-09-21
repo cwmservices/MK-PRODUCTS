@@ -1,0 +1,27 @@
+{
+  "name": "amazon-clone",
+  "version": "1.0.0",
+  "description": "this is my first ecommerce project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Masood Khan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^6.2.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.8",
+    "stripe": "^8.176.0",
+    "uuid": "^8.3.2",
+    "validator": "^13.6.0"
+  }
+}

@@ -1,0 +1,68 @@
+const items = [
+    {
+      id: 1,
+      title: "The Lean Startup.",
+      price: "120",
+      rating:5,
+      img: "https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg",
+      quantity: 1,
+    },
+ {
+      id: 2,
+      title: "Kenwood kMix Stand.",
+      price: "239",
+      rating:4,
+      img: "https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg",
+      quantity: 1,
+    },
+ {
+      id: 3,
+      title: "Samsung LC49RG9.",
+      price: "199",
+      rating:3,
+      img: "https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg",
+      quantity: 1,
+    },
+ {
+      id: 4,
+      title: "Amazon Echo.",
+      price: "120",
+      rating:4,
+      img: "https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg",
+      quantity: 1,
+    },
+ {
+      id: 5,
+      title: "New Apple iPad.",
+      price: "480",
+      rating:5,
+      img: "https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg",
+      quantity: 1,
+    },
+ {
+      id: 6,
+      title: "Samsung LC49R.",
+      price: "5420",
+      rating:3,
+      img: "https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg",
+      quantity: 1,
+    },
+    {
+      id: 7,
+      title: "New Apple iPad.",
+      price: "480",
+      rating:5,
+      img: "https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg",
+      quantity: 1,
+    },
+    {
+      id: 8,
+      title: "Kenwood kMixr.",
+      price: "239",
+      rating:4,
+      img: "https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg",
+      quantity: 1,
+    },
+  ];
+
+  module.exports = items;
